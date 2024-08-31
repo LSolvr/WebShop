@@ -1,0 +1,25 @@
+/* src/index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  a {
+    color: #742ba9;
+    text-decoration: none;
+  }
+  
+  button {
+    background-color: #742ba9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5a2290;
+  }
+  

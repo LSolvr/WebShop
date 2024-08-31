@@ -1,0 +1,13 @@
+/* src/App.css */
+.app-content {
+    padding: 20px;
+    background-color: #000; /* Isso define o fundo da área do conteúdo como preto */
+    color: #fff; /* Isso define a cor do texto como branco */
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Isso define o fundo da página como preto */
+  }
+  

@@ -1,0 +1,66 @@
+/* src/components/Navbar.css */
+.navbar {
+    background: linear-gradient(to bottom, #752ba9, #00000000); /* Gradiente da cor roxa para um tom mais escuro de roxo */
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .navbar-logo {
+    margin: 5px; /* Espaçamento entre a logo e o menu */
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px; /* Ajuste a altura da logo conforme necessário */
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-item {
+    margin-right: 105px; /* Espaçamento entre os itens do menu */
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white; /* Cor do texto dos links */
+    font-weight: bold; /* Ajuste conforme desejado */
+    font-size: 17px;
+    font-family: 'Oswald'
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline; /* Efeito de sublinhado ao passar o mouse */
+  }
+  
+  /* src/components/Navbar.css */
+.navbar-button {
+    background-color: #742ba9; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Arredonda os cantos do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o botão */
+    margin-left: auto; /* Alinha o botão à direita */
+    text-decoration: none; /* Remove sublinhado do link */
+  }
+  
+  .navbar-button:hover {
+    background-color: #5a1d8d; /* Cor de fundo do botão ao passar o mouse */
+  }
+  

@@ -1,0 +1,55 @@
+/* src/pages/Register.css */
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    background: linear-gradient(to right, #742ba9, #4a2c77); /* Gradiente de fundo */
+    padding: 20px;
+  }
+  
+  .register-form {
+    background: white; /* Cor de fundo do formulário */
+    border-radius: 8px; /* Cantos arredondados do formulário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; /* Largura máxima do formulário */
+  }
+  
+  .register-form h2 {
+    color: #742ba9; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 8px; /* Espaço abaixo dos rótulos */
+    font-weight: bold; /* Negrito para os rótulos */
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Espaço abaixo dos campos de entrada */
+    border: 1px solid #ddd; /* Borda leve */
+    border-radius: 4px; /* Cantos arredondados dos campos de entrada */
+  }
+  
+  .register-form button {
+    background-color: #742ba9; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 4px; /* Arredondamento dos cantos do botão */
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer; /* Cursor pointer para o botão */
+    width: 100%; /* Largura total do botão */
+  }
+  
+  .register-form button:hover {
+    background-color: #5a1d8d; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
